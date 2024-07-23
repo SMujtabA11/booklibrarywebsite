@@ -50,7 +50,199 @@ nav>ul>li>a{
     position: absolute;
     margin-top:-135px;
 }
-h2,p{
+.text-div>h2,p{
 text-align: center;
 padding: 8px;
+}
+.book-shelf1{
+   
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+#card-one{
+    height: 260px;
+    width: 215px;
+    border: 2px solid yellow;
+    background-image: url(./assests/71ENS5pu23L._AC_UF1000\,1000_QL80_.jpg);
+    background-size:220px;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    position: relative;
+    object-fit:cover;
+}
+#card-one>h4{
+background-color: rgb(115, 122, 129,.5);
+color:white;
+position: absolute;
+top:150px;
+width: 95%;
+text-align: center;
+height: 30px;
+padding: 5px;
+}
+#card-one>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:210px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+}
+#card-two{
+    height: 260px;
+    width: 215px;
+    border: 2px solid yellow;
+    background-image: url(./assests/mir.jfif);
+    background-size:220px;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    position: relative;
+    object-fit:cover;
+}
+#card-two>h4{
+    background-color: rgb(115, 122, 129,.5);
+    color:white;
+    position: absolute;
+    top:150px;
+    width: 95%;
+    text-align: center;
+    height: 30px;
+    padding: 5px;
+}
+#card-two>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:210px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+}
+#card-three{
+    height: 260px;
+    width: 215px;
+    border: 2px solid yellow;
+    background-image: url(./assests/images\ \(2\).jfif);
+    background-size:220px;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    position: relative;
+    object-fit:cover;
+}
+#card-three>h4{
+background-color: rgb(115, 122, 129,.5);
+color:white;
+position: absolute;
+top:150px;
+width: 95%;
+text-align: center;
+height: 30px;
+padding: 5px;
+}
+#card-three>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:210px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+}
+#card-four{
+    height: 260px;
+    width: 215px;
+    border: 2px solid yellow;
+    background-image: url(./assests/images.png);
+    background-size:220px;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    position: relative;
+    object-fit:cover;
+    margin-top: 20px;
+}
+#card-four>h4{
+background-color: rgb(115, 122, 129,.5);
+color:white;
+position: absolute;
+top:150px;
+width: 95%;
+text-align: center;
+height: 30px;
+padding: 5px;
+}
+#card-four>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:210px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+}
+#card-five{
+    height: 260px;
+    width: 215px;
+    border: 2px solid yellow;
+    background-image: url(./assests/s_hero2x.png);
+    background-size:220px;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    position: relative;
+    object-fit:cover;
+    margin-top: 20px;
+
+}
+#card-five>h4{
+background-color: rgb(115, 122, 129,.5);
+color:white;
+position: absolute;
+top:150px;
+width: 95%;
+text-align: center;
+height: 30px;
+padding: 5px;
+}
+#card-five>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:210px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+}
+#card-six{
+    height: 260px;
+    width: 215px;
+    border: 2px solid yellow;
+    background-image: url(./assests/1681645556321__1_-removebg-preview.png);
+    background-size:220px;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    position: relative;
+    object-fit:cover;
+    margin-top: 20px;
+
+}
+#card-six>h4{
+background-color: rgb(115, 122, 129,.5);
+color:white;
+position: absolute;
+top:150px;
+width: 95%;
+text-align: center;
+height: 30px;
+padding: 5px;
+}
+#card-six>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:210px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
 }
