@@ -64,13 +64,15 @@ padding: 8px;
 #card-one{
     height: 260px;
     width: 215px;
-    border: 2px solid yellow;
     background-image: url(./assests/71ENS5pu23L._AC_UF1000\,1000_QL80_.jpg);
     background-size:220px;
     background-repeat: no-repeat;
     margin-left: 150px;
     position: relative;
     object-fit:cover;
+    border: 1px solid rgb(65, 65, 136);
+    border-radius: 5px;
+    box-shadow: 1px 0px 5px 2px black;
 }
 #card-one>h4{
 background-color: rgb(115, 122, 129,.5);
@@ -94,13 +96,15 @@ padding: 5px;
 #card-two{
     height: 260px;
     width: 215px;
-    border: 2px solid yellow;
     background-image: url(./assests/mir.jfif);
     background-size:220px;
     background-repeat: no-repeat;
     margin-left: 150px;
     position: relative;
     object-fit:cover;
+    border: 1px solid rgb(65, 65, 136);
+    border-radius: 5px;
+    box-shadow: 1px 0px 5px 2px black;
 }
 #card-two>h4{
     background-color: rgb(115, 122, 129,.5);
@@ -124,13 +128,16 @@ padding: 5px;
 #card-three{
     height: 260px;
     width: 215px;
-    border: 2px solid yellow;
     background-image: url(./assests/images\ \(2\).jfif);
     background-size:220px;
     background-repeat: no-repeat;
     margin-left: 150px;
     position: relative;
     object-fit:cover;
+    border: 1px solid rgb(65, 65, 136);
+    border-radius: 5px;
+    box-shadow: 1px 0px 5px 2px black;
+    margin-right: 30px;
 }
 #card-three>h4{
 background-color: rgb(115, 122, 129,.5);
@@ -154,7 +161,6 @@ padding: 5px;
 #card-four{
     height: 260px;
     width: 215px;
-    border: 2px solid yellow;
     background-image: url(./assests/images.png);
     background-size:220px;
     background-repeat: no-repeat;
@@ -162,6 +168,9 @@ padding: 5px;
     position: relative;
     object-fit:cover;
     margin-top: 20px;
+    border: 1px solid rgb(65, 65, 136);
+    border-radius: 5px;
+    box-shadow: 1px 0px 5px 2px black;
 }
 #card-four>h4{
 background-color: rgb(115, 122, 129,.5);
@@ -185,7 +194,6 @@ padding: 5px;
 #card-five{
     height: 260px;
     width: 215px;
-    border: 2px solid yellow;
     background-image: url(./assests/s_hero2x.png);
     background-size:220px;
     background-repeat: no-repeat;
@@ -193,6 +201,9 @@ padding: 5px;
     position: relative;
     object-fit:cover;
     margin-top: 20px;
+    border: 1px solid rgb(65, 65, 136);
+    border-radius: 5px;
+    box-shadow: 1px 0px 5px 2px black;
 
 }
 #card-five>h4{
@@ -217,7 +228,6 @@ padding: 5px;
 #card-six{
     height: 260px;
     width: 215px;
-    border: 2px solid yellow;
     background-image: url(./assests/1681645556321__1_-removebg-preview.png);
     background-size:220px;
     background-repeat: no-repeat;
@@ -225,6 +235,11 @@ padding: 5px;
     position: relative;
     object-fit:cover;
     margin-top: 20px;
+    border: 1px solid rgb(65, 65, 136);
+    border-radius: 5px;
+    box-shadow: 1px 0px 5px 2px black;
+    margin-right: 30px;
+
 
 }
 #card-six>h4{
@@ -245,4 +260,22 @@ padding: 5px;
     left: 70px;
     width: 80px;
     height: 50px;
+}
+.book-shelf2{
+   /* display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;*/
+    background-color: red;
+    height: 9000px;
+}
+#outer-div1{
+    width:290px;
+    height:450px;
+    margin-left: 100px;
+    background-color: #4F85DC;
+}
+#card-seven{
+    width: 200px;
+    height: 200px;
 }
