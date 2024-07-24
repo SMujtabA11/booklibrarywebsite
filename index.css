@@ -262,20 +262,319 @@ padding: 5px;
     height: 50px;
 }
 .book-shelf2{
-   /* display: flex;
+    display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    align-content: flex-start;*/
-    background-color: red;
-    height: 9000px;
+    align-content: flex-start;
+   
 }
 #outer-div1{
-    width:290px;
+    width:300px;
     height:450px;
-    margin-left: 100px;
+    margin-left: 10px;
     background-color: #4F85DC;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#outer-div1>img{
+    margin-left:25px;
+    margin-top: 20px;
 }
 #card-seven{
-    width: 200px;
-    height: 200px;
+    width:240px;
+    height:130px;
+    margin-left: 25px;
+    background-color:grey;
+    color:white;
+    position: relative;
+    margin-top: -10px;
+}
+#card-seven>h4{
+    background-color: rgba(115, 122, 129, 0.904);
+    color:white;
+    position: absolute;
+    top:10px;
+    width: 95%;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+}
+#card-seven>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:70px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+    cursor: pointer ;
+}
+#outer-div2{
+    width:300px;
+    height:450px;
+    margin-left: 10px;
+    background-color: #4F85DC;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#outer-div2>img{
+    margin-left:25px;
+    margin-top: 20px;
+}
+#card-8{
+    width:240px;
+    height:130px;
+    margin-left: 25px;
+    background-color:grey;
+    color:white;
+    position: relative;
+    margin-top: -10px;
+}
+#card-8>h4{
+    background-color: rgba(115, 122, 129, 0.904);
+    color:white;
+    position: absolute;
+    top:10px;
+    width: 95%;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+}
+#card-8>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:70px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+    cursor: pointer ;
+}
+#outer-div3{
+    width:300px;
+    height:450px;
+    margin-left: 10px;
+    background-color: #4F85DC;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#outer-div3>img{
+    margin-left:25px;
+    margin-top: 20px;
+}
+#card-9{
+    width:240px;
+    height:130px;
+    margin-left: 25px;
+    background-color:grey;
+    color:white;
+    position: relative;
+    margin-top: -10px;
+}
+#card-9>h4{
+    background-color: rgba(115, 122, 129, 0.904);
+    color:white;
+    position: absolute;
+    top:10px;
+    width: 95%;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+}
+#card-9>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:70px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+    cursor: pointer ;
+}
+#outer-div3{
+    width:300px;
+    height:450px;
+    margin-left: 10px;
+    background-color: #4F85DC;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#outer-div3>img{
+    margin-left:25px;
+    margin-top: 20px;
+}
+#card-9{
+    width:240px;
+    height:130px;
+    margin-left: 25px;
+    background-color:grey;
+    color:white;
+    position: relative;
+    margin-top: -10px;
+}
+#card-9>h4{
+    background-color: rgba(115, 122, 129, 0.904);
+    color:white;
+    position: absolute;
+    top:10px;
+    width: 95%;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+}
+#card-9>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:70px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+    cursor: pointer ;
+}
+#outer-div4{
+    width:300px;
+    height:450px;
+    margin-left: 10px;
+    background-color: #4F85DC;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+#outer-div4>img{
+    margin-left:25px;
+    margin-top: 20px;
+}
+#card-10{
+    width:240px;
+    height:130px;
+    margin-left: 25px;
+    background-color:grey;
+    color:white;
+    position: relative;
+    margin-top: -10px;
+}
+#card-10>h4{
+    background-color: rgba(115, 122, 129, 0.904);
+    color:white;
+    position: absolute;
+    top:10px;
+    width: 95%;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+}
+#card-10>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:70px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+    cursor: pointer ;
+}
+#outer-div5{
+    width:300px;
+    height:450px;
+    margin-left: 10px;
+    background-color: #4F85DC;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+
+}
+#outer-div5>img{
+    margin-left:25px;
+    margin-top: 20px;
+}
+#card-11{
+    width:240px;
+    height:130px;
+    margin-left: 25px;
+    background-color:grey;
+    color:white;
+    position: relative;
+    margin-top: -10px;
+}
+#card-11>h4{
+    background-color: rgba(115, 122, 129, 0.904);
+    color:white;
+    position: absolute;
+    top:10px;
+    width: 95%;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+}
+#card-11>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:70px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+    cursor: pointer ;
+}
+#outer-div6{
+    width:300px;
+    height:450px;
+    margin-left: 10px;
+    background-color: #4F85DC;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+
+}
+#outer-div6>img{
+    margin-left:25px;
+    margin-top: 20px;
+}
+#card-12{
+    width:240px;
+    height:130px;
+    margin-left: 25px;
+    background-color:grey;
+    color:white;
+    position: relative;
+    margin-top: -10px;
+}
+#card-12>h4{
+    background-color: rgba(115, 122, 129, 0.904);
+    color:white;
+    position: absolute;
+    top:10px;
+    width: 95%;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+}
+#card-12>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:70px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+    cursor: pointer ;
+}
+#contact-div{
+    width:70%;
+    height: 10%;
+    background-color: rgb(227, 234, 242);
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#contact-div>ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
