@@ -55,7 +55,6 @@ text-align: center;
 padding: 8px;
 }
 .book-shelf1{
-   
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -204,7 +203,6 @@ padding: 5px;
     border: 1px solid rgb(65, 65, 136);
     border-radius: 5px;
     box-shadow: 1px 0px 5px 2px black;
-
 }
 #card-five>h4{
 background-color: rgb(115, 122, 129,.5);
@@ -239,8 +237,6 @@ padding: 5px;
     border-radius: 5px;
     box-shadow: 1px 0px 5px 2px black;
     margin-right: 30px;
-
-
 }
 #card-six>h4{
 background-color: rgb(115, 122, 129,.5);
@@ -561,13 +557,13 @@ padding: 5px;
     cursor: pointer ;
 }
 #contact-div{
-    width:70%;
+    width:80%;
     height: 10%;
     background-color: rgb(227, 234, 242);
     text-align: center;
     font-size: 25px;
     margin-top: 20px;
-    margin-left: 150px;
+    margin-left: 130px;
     padding: 10px;
     box-sizing: border-box;
     border-radius: 5px;
@@ -577,4 +573,36 @@ padding: 5px;
     display: flex;
     justify-content: center;
     margin-top: 20px;
+}
+footer{
+   
+    display: flex;
+    margin-top: 10px;
+}
+#menu-div
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#about-div{
+    margin-top: 20px;
+
+}
+#menu-div>a{
+    text-decoration: underline;
+    color: black;
+    margin-left: 10PX;
+    padding-bottom: 5PX;
+}
+address{
+    margin-left: 130px;
+}
+#footer-img{
+    margin-left: 300px;
+    margin-top: -20px;
+}
+#copyrightsec{
+    background-color: rgb(115, 122, 129,.5);
 }
