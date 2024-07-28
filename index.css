@@ -1,614 +1,3 @@
-@media  (width>=1024px) {
-*{
-    margin:0px;
-    padding:0px;
-}
-header>img{
-    margin-left: 500px;
-    margin-top: -20px;
-}
-nav{
-    width: 100%;
-    height:50px;
-    background-color:whitesmoke;
-    color: #4F85DC;
-    margin-top: -40px;
-
-}
-nav>ul{
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-}
-nav>ul>li{
-    font-size: 18px;
-    padding-top:10px ;
-}
-nav>ul>li>a{
-    text-decoration: none;
-}
-#div-main{
-    background-color:white;
-    display: flex;
-    justify-content:space-around;
-    position: relative;
-
-}
-#div-main>h1{
-    padding-top: 80px;
-}
-
-#seach-box{
-    width: 220px;
-    height: 30px;
-    border-radius: 5px;
-    padding: 10px;
-    margin-top:-140px;
-    position: absolute;
-    margin-left:130px ;
-}
-#serch-img{
-    margin-left:330px;
-    position: absolute;
-    margin-top:-135px;
-}
-.text-div>h2,p{
-text-align: center;
-padding: 8px;
-}
-.book-shelf1{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-content: flex-start;
-}
-#card-one{
-    height: 260px;
-    width: 215px;
-    background-image: url(./assests/71ENS5pu23L._AC_UF1000\,1000_QL80_.jpg);
-    background-size:220px;
-    background-repeat: no-repeat;
-    margin-left: 150px;
-    position: relative;
-    object-fit:cover;
-    border: 1px solid rgb(65, 65, 136);
-    border-radius: 5px;
-    box-shadow: 1px 0px 5px 2px black;
-}
-#card-one>h4{
-background-color: rgb(115, 122, 129,.5);
-color:white;
-position: absolute;
-top:150px;
-width: 95%;
-text-align: center;
-height: 30px;
-padding: 5px;
-}
-#card-one>button{
-    background-color: rgb(115, 122, 129,.5);
-    color: white;
-    position: absolute;
-    top:210px;
-    left: 70px;
-    width: 80px;
-    height: 50px;
-}
-#card-two{
-    height: 260px;
-    width: 215px;
-    background-image: url(./assests/mir.jfif);
-    background-size:220px;
-    background-repeat: no-repeat;
-    margin-left: 150px;
-    position: relative;
-    object-fit:cover;
-    border: 1px solid rgb(65, 65, 136);
-    border-radius: 5px;
-    box-shadow: 1px 0px 5px 2px black;
-}
-#card-two>h4{
-    background-color: rgb(115, 122, 129,.5);
-    color:white;
-    position: absolute;
-    top:150px;
-    width: 95%;
-    text-align: center;
-    height: 30px;
-    padding: 5px;
-}
-#card-two>button{
-    background-color: rgb(115, 122, 129,.5);
-    color: white;
-    position: absolute;
-    top:210px;
-    left: 70px;
-    width: 80px;
-    height: 50px;
-}
-#card-three{
-    height: 260px;
-    width: 215px;
-    background-image: url(./assests/images\ \(2\).jfif);
-    background-size:220px;
-    background-repeat: no-repeat;
-    margin-left: 150px;
-    position: relative;
-    object-fit:cover;
-    border: 1px solid rgb(65, 65, 136);
-    border-radius: 5px;
-    box-shadow: 1px 0px 5px 2px black;
-    margin-right: 30px;
-}
-#card-three>h4{
-background-color: rgb(115, 122, 129,.5);
-color:white;
-position: absolute;
-top:150px;
-width: 95%;
-text-align: center;
-height: 30px;
-padding: 5px;
-}
-#card-three>button{
-    background-color: rgb(115, 122, 129,.5);
-    color: white;
-    position: absolute;
-    top:210px;
-    left: 70px;
-    width: 80px;
-    height: 50px;
-}
-#card-four{
-    height: 260px;
-    width: 215px;
-    background-image: url(./assests/images.png);
-    background-size:220px;
-    background-repeat: no-repeat;
-    margin-left: 150px;
-    position: relative;
-    object-fit:cover;
-    margin-top: 20px;
-    border: 1px solid rgb(65, 65, 136);
-    border-radius: 5px;
-    box-shadow: 1px 0px 5px 2px black;
-}
-#card-four>h4{
-background-color: rgb(115, 122, 129,.5);
-color:white;
-position: absolute;
-top:150px;
-width: 95%;
-text-align: center;
-height: 30px;
-padding: 5px;
-}
-#card-four>button{
-    background-color: rgb(115, 122, 129,.5);
-    color: white;
-    position: absolute;
-    top:210px;
-    left: 70px;
-    width: 80px;
-    height: 50px;
-}
-#card-five{
-    height: 260px;
-    width: 215px;
-    background-image: url(./assests/s_hero2x.png);
-    background-size:220px;
-    background-repeat: no-repeat;
-    margin-left: 150px;
-    position: relative;
-    object-fit:cover;
-    margin-top: 20px;
-    border: 1px solid rgb(65, 65, 136);
-    border-radius: 5px;
-    box-shadow: 1px 0px 5px 2px black;
-}
-#card-five>h4{
-background-color: rgb(115, 122, 129,.5);
-color:white;
-position: absolute;
-top:150px;
-width: 95%;
-text-align: center;
-height: 30px;
-padding: 5px;
-}
-#card-five>button{
-    background-color: rgb(115, 122, 129,.5);
-    color: white;
-    position: absolute;
-    top:210px;
-    left: 70px;
-    width: 80px;
-    height: 50px;
-}
-#card-six{
-    height: 260px;
-    width: 215px;
-    background-image: url(./assests/1681645556321__1_-removebg-preview.png);
-    background-size:220px;
-    background-repeat: no-repeat;
-    margin-left: 150px;
-    position: relative;
-    object-fit:cover;
-    margin-top: 20px;
-    border: 1px solid rgb(65, 65, 136);
-    border-radius: 5px;
-    box-shadow: 1px 0px 5px 2px black;
-    margin-right: 30px;
-}
-#card-six>h4{
-background-color: rgb(115, 122, 129,.5);
-color:white;
-position: absolute;
-top:150px;
-width: 95%;
-text-align: center;
-height: 30px;
-padding: 5px;
-}
-#card-six>button{
-    background-color: rgb(115, 122, 129,.5);
-    color: white;
-    position: absolute;
-    top:210px;
-    left: 70px;
-    width: 80px;
-    height: 50px;
-}
-.book-shelf2{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-content: flex-start;
-   
-}
-#outer-div1{
-    width:300px;
-    height:450px;
-    margin-left: 10px;
-    background-color: #4F85DC;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-#outer-div1>img{
-    margin-left:25px;
-    margin-top: 20px;
-}
-#card-seven{
-    width:240px;
-    height:130px;
-    margin-left: 25px;
-    background-color:grey;
-    color:white;
-    position: relative;
-    margin-top: -10px;
-}
-#card-seven>h4{
-    background-color: rgba(115, 122, 129, 0.904);
-    color:white;
-    position: absolute;
-    top:10px;
-    width: 95%;
-    text-align: center;
-    height: 40px;
-    padding: 5px;
-}
-#card-seven>button{
-    background-color: rgb(115, 122, 129,.5);
-    color: white;
-    position: absolute;
-    top:70px;
-    left: 70px;
-    width: 80px;
-    height: 50px;
-    cursor: pointer ;
-}
-#outer-div2{
-    width:300px;
-    height:450px;
-    margin-left: 10px;
-    background-color: #4F85DC;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-#outer-div2>img{
-    margin-left:25px;
-    margin-top: 20px;
-}
-#card-8{
-    width:240px;
-    height:130px;
-    margin-left: 25px;
-    background-color:grey;
-    color:white;
-    position: relative;
-    margin-top: -10px;
-}
-#card-8>h4{
-    background-color: rgba(115, 122, 129, 0.904);
-    color:white;
-    position: absolute;
-    top:10px;
-    width: 95%;
-    text-align: center;
-    height: 40px;
-    padding: 5px;
-}
-#card-8>button{
-    background-color: rgb(115, 122, 129,.5);
-    color: white;
-    position: absolute;
-    top:70px;
-    left: 70px;
-    width: 80px;
-    height: 50px;
-    cursor: pointer ;
-}
-#outer-div3{
-    width:300px;
-    height:450px;
-    margin-left: 10px;
-    background-color: #4F85DC;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-#outer-div3>img{
-    margin-left:25px;
-    margin-top: 20px;
-}
-#card-9{
-    width:240px;
-    height:130px;
-    margin-left: 25px;
-    background-color:grey;
-    color:white;
-    position: relative;
-    margin-top: -10px;
-}
-#card-9>h4{
-    background-color: rgba(115, 122, 129, 0.904);
-    color:white;
-    position: absolute;
-    top:10px;
-    width: 95%;
-    text-align: center;
-    height: 40px;
-    padding: 5px;
-}
-#card-9>button{
-    background-color: rgb(115, 122, 129,.5);
-    color: white;
-    position: absolute;
-    top:70px;
-    left: 70px;
-    width: 80px;
-    height: 50px;
-    cursor: pointer ;
-}
-#outer-div3{
-    width:300px;
-    height:450px;
-    margin-left: 10px;
-    background-color: #4F85DC;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-#outer-div3>img{
-    margin-left:25px;
-    margin-top: 20px;
-}
-#card-9{
-    width:240px;
-    height:130px;
-    margin-left: 25px;
-    background-color:grey;
-    color:white;
-    position: relative;
-    margin-top: -10px;
-}
-#card-9>h4{
-    background-color: rgba(115, 122, 129, 0.904);
-    color:white;
-    position: absolute;
-    top:10px;
-    width: 95%;
-    text-align: center;
-    height: 40px;
-    padding: 5px;
-}
-#card-9>button{
-    background-color: rgb(115, 122, 129,.5);
-    color: white;
-    position: absolute;
-    top:70px;
-    left: 70px;
-    width: 80px;
-    height: 50px;
-    cursor: pointer ;
-}
-#outer-div4{
-    width:300px;
-    height:450px;
-    margin-left: 10px;
-    background-color: #4F85DC;
-    border-radius: 5px;
-    box-sizing: border-box;
-    margin-top: 10px;
-}
-#outer-div4>img{
-    margin-left:25px;
-    margin-top: 20px;
-}
-#card-10{
-    width:240px;
-    height:130px;
-    margin-left: 25px;
-    background-color:grey;
-    color:white;
-    position: relative;
-    margin-top: -10px;
-}
-#card-10>h4{
-    background-color: rgba(115, 122, 129, 0.904);
-    color:white;
-    position: absolute;
-    top:10px;
-    width: 95%;
-    text-align: center;
-    height: 40px;
-    padding: 5px;
-}
-#card-10>button{
-    background-color: rgb(115, 122, 129,.5);
-    color: white;
-    position: absolute;
-    top:70px;
-    left: 70px;
-    width: 80px;
-    height: 50px;
-    cursor: pointer ;
-}
-#outer-div5{
-    width:300px;
-    height:450px;
-    margin-left: 10px;
-    background-color: #4F85DC;
-    border-radius: 5px;
-    box-sizing: border-box;
-    margin-top: 10px;
-
-}
-#outer-div5>img{
-    margin-left:25px;
-    margin-top: 20px;
-}
-#card-11{
-    width:240px;
-    height:130px;
-    margin-left: 25px;
-    background-color:grey;
-    color:white;
-    position: relative;
-    margin-top: -10px;
-}
-#card-11>h4{
-    background-color: rgba(115, 122, 129, 0.904);
-    color:white;
-    position: absolute;
-    top:10px;
-    width: 95%;
-    text-align: center;
-    height: 40px;
-    padding: 5px;
-}
-#card-11>button{
-    background-color: rgb(115, 122, 129,.5);
-    color: white;
-    position: absolute;
-    top:70px;
-    left: 70px;
-    width: 80px;
-    height: 50px;
-    cursor: pointer ;
-}
-#outer-div6{
-    width:300px;
-    height:450px;
-    margin-left: 10px;
-    background-color: #4F85DC;
-    border-radius: 5px;
-    box-sizing: border-box;
-    margin-top: 10px;
-
-}
-#outer-div6>img{
-    margin-left:25px;
-    margin-top: 20px;
-}
-#card-12{
-    width:240px;
-    height:130px;
-    margin-left: 25px;
-    background-color:grey;
-    color:white;
-    position: relative;
-    margin-top: -10px;
-}
-#card-12>h4{
-    background-color: rgba(115, 122, 129, 0.904);
-    color:white;
-    position: absolute;
-    top:10px;
-    width: 95%;
-    text-align: center;
-    height: 40px;
-    padding: 5px;
-}
-#card-12>button{
-    background-color: rgb(115, 122, 129,.5);
-    color: white;
-    position: absolute;
-    top:70px;
-    left: 70px;
-    width: 80px;
-    height: 50px;
-    cursor: pointer ;
-}
-#contact-div{
-    width:80%;
-    height: 10%;
-    background-color: rgb(227, 234, 242);
-    text-align: center;
-    font-size: 25px;
-    margin-top: 20px;
-    margin-left: 130px;
-    padding: 10px;
-    box-sizing: border-box;
-    border-radius: 5px;
-}
-#contact-div>ul{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-footer{
-   
-    display: flex;
-    margin-top: 10px;
-}
-#menu-div
-{
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    margin-left: 40px;
-}
-#about-div{
-    margin-top: 20px;
-
-}
-#menu-div>a{
-    text-decoration: underline;
-    color: black;
-    margin-left: 10PX;
-    padding-bottom: 5PX;
-}
-address{
-    margin-left: 130px;
-}
-#footer-img{
-    margin-left: 300px;
-    margin-top: -20px;
-}
-#copyrightsec{
-    background-color: rgb(115, 122, 129,.5);
-}   
-}
 @media screen and (max-width:767px){
     *{
         margin:0px;
@@ -619,7 +8,7 @@ address{
         margin-top: -20px;
     }
     nav{
-        width:25rem;
+        width:26.5rem;
         height:50px;
         background-color:whitesmoke;
         color: #4F85DC;
@@ -1242,7 +631,7 @@ address{
         width: 25rem;
     } 
 }
-@media screen and (width>=767px){
+@media screen and (min-width:768px) {
     *{
         margin:0px;
         padding:0px;
@@ -1252,7 +641,7 @@ address{
         margin-top: -20px;
     }
     nav{
-        width:49rem;
+        width:47.9rem;
         height:50px;
         background-color:whitesmoke;
         color: #4F85DC;
@@ -1872,6 +1261,619 @@ address{
     }
     #copyrightsec{
         background-color: rgb(115, 122, 129,.5);
-        width: 49rem;
+        width: 47.9rem;
     } 
 }
+@media (width >= 1024px) {
+*{
+    margin:0px;
+    padding:0px;
+}
+header>img{
+    margin-left: 500px;
+    margin-top: -20px;
+}
+nav{
+    width: 98%;
+    height:50px;
+    background-color:whitesmoke;
+    color: #4F85DC;
+    margin-top: -40px;
+
+}
+nav>ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+nav>ul>li{
+    font-size: 18px;
+    padding-top:10px ;
+}
+nav>ul>li>a{
+    text-decoration: none;
+}
+#div-main{
+    background-color:white;
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+
+}
+#div-main>h1{
+    padding-top: 80px;
+}
+
+#seach-box{
+    width: 220px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top:-60px;
+    position: absolute;
+    margin-left:150px ;
+}
+#serch-img{
+    margin-left:22rem;
+    position: absolute;
+    margin-top:-52px;
+}
+.text-div>h2,p{
+text-align: center;
+padding: 8px;
+}
+.book-shelf1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+#card-one{
+    height: 260px;
+    width: 215px;
+    background-image: url(./assests/71ENS5pu23L._AC_UF1000\,1000_QL80_.jpg);
+    background-size:220px;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    position: relative;
+    object-fit:cover;
+    border: 1px solid rgb(65, 65, 136);
+    border-radius: 5px;
+    box-shadow: 1px 0px 5px 2px black;
+}
+#card-one>h4{
+background-color: rgb(115, 122, 129,.5);
+color:white;
+position: absolute;
+top:150px;
+width: 95%;
+text-align: center;
+height: 30px;
+padding: 5px;
+}
+#card-one>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:210px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+}
+#card-two{
+    height: 260px;
+    width: 215px;
+    background-image: url(./assests/mir.jfif);
+    background-size:220px;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    position: relative;
+    object-fit:cover;
+    border: 1px solid rgb(65, 65, 136);
+    border-radius: 5px;
+    box-shadow: 1px 0px 5px 2px black;
+}
+#card-two>h4{
+    background-color: rgb(115, 122, 129,.5);
+    color:white;
+    position: absolute;
+    top:150px;
+    width: 95%;
+    text-align: center;
+    height: 30px;
+    padding: 5px;
+}
+#card-two>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:210px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+}
+#card-three{
+    height: 260px;
+    width: 215px;
+    background-image: url(./assests/images\ \(2\).jfif);
+    background-size:220px;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    position: relative;
+    object-fit:cover;
+    border: 1px solid rgb(65, 65, 136);
+    border-radius: 5px;
+    box-shadow: 1px 0px 5px 2px black;
+    margin-right: 30px;
+}
+#card-three>h4{
+background-color: rgb(115, 122, 129,.5);
+color:white;
+position: absolute;
+top:150px;
+width: 95%;
+text-align: center;
+height: 30px;
+padding: 5px;
+}
+#card-three>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:210px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+}
+#card-four{
+    height: 260px;
+    width: 215px;
+    background-image: url(./assests/images.png);
+    background-size:220px;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    position: relative;
+    object-fit:cover;
+    margin-top: 20px;
+    border: 1px solid rgb(65, 65, 136);
+    border-radius: 5px;
+    box-shadow: 1px 0px 5px 2px black;
+}
+#card-four>h4{
+background-color: rgb(115, 122, 129,.5);
+color:white;
+position: absolute;
+top:150px;
+width: 95%;
+text-align: center;
+height: 30px;
+padding: 5px;
+}
+#card-four>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:210px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+}
+#card-five{
+    height: 260px;
+    width: 215px;
+    background-image: url(./assests/s_hero2x.png);
+    background-size:220px;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    position: relative;
+    object-fit:cover;
+    margin-top: 20px;
+    border: 1px solid rgb(65, 65, 136);
+    border-radius: 5px;
+    box-shadow: 1px 0px 5px 2px black;
+}
+#card-five>h4{
+background-color: rgb(115, 122, 129,.5);
+color:white;
+position: absolute;
+top:150px;
+width: 95%;
+text-align: center;
+height: 30px;
+padding: 5px;
+}
+#card-five>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:210px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+}
+#card-six{
+    height: 260px;
+    width: 215px;
+    background-image: url(./assests/1681645556321__1_-removebg-preview.png);
+    background-size:220px;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    position: relative;
+    object-fit:cover;
+    margin-top: 20px;
+    border: 1px solid rgb(65, 65, 136);
+    border-radius: 5px;
+    box-shadow: 1px 0px 5px 2px black;
+    margin-right: 30px;
+}
+#card-six>h4{
+background-color: rgb(115, 122, 129,.5);
+color:white;
+position: absolute;
+top:150px;
+width: 95%;
+text-align: center;
+height: 30px;
+padding: 5px;
+}
+#card-six>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:210px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+}
+.book-shelf2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+   
+}
+#outer-div1{
+    width:300px;
+    height:450px;
+    margin-left: 10px;
+    background-color: #4F85DC;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#outer-div1>img{
+    margin-left:25px;
+    margin-top: 20px;
+}
+#card-seven{
+    width:240px;
+    height:130px;
+    margin-left: 25px;
+    background-color:grey;
+    color:white;
+    position: relative;
+    margin-top: -10px;
+}
+#card-seven>h4{
+    background-color: rgba(115, 122, 129, 0.904);
+    color:white;
+    position: absolute;
+    top:10px;
+    width: 95%;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+}
+#card-seven>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:70px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+    cursor: pointer ;
+}
+#outer-div2{
+    width:300px;
+    height:450px;
+    margin-left: 10px;
+    background-color: #4F85DC;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#outer-div2>img{
+    margin-left:25px;
+    margin-top: 20px;
+}
+#card-8{
+    width:240px;
+    height:130px;
+    margin-left: 25px;
+    background-color:grey;
+    color:white;
+    position: relative;
+    margin-top: -10px;
+}
+#card-8>h4{
+    background-color: rgba(115, 122, 129, 0.904);
+    color:white;
+    position: absolute;
+    top:10px;
+    width: 95%;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+}
+#card-8>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:70px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+    cursor: pointer ;
+}
+#outer-div3{
+    width:300px;
+    height:450px;
+    margin-left: 10px;
+    background-color: #4F85DC;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#outer-div3>img{
+    margin-left:25px;
+    margin-top: 20px;
+}
+#card-9{
+    width:240px;
+    height:130px;
+    margin-left: 25px;
+    background-color:grey;
+    color:white;
+    position: relative;
+    margin-top: -10px;
+}
+#card-9>h4{
+    background-color: rgba(115, 122, 129, 0.904);
+    color:white;
+    position: absolute;
+    top:10px;
+    width: 95%;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+}
+#card-9>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:70px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+    cursor: pointer ;
+}
+#outer-div3{
+    width:300px;
+    height:450px;
+    margin-left: 10px;
+    background-color: #4F85DC;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#outer-div3>img{
+    margin-left:25px;
+    margin-top: 20px;
+}
+#card-9{
+    width:240px;
+    height:130px;
+    margin-left: 25px;
+    background-color:grey;
+    color:white;
+    position: relative;
+    margin-top: -10px;
+}
+#card-9>h4{
+    background-color: rgba(115, 122, 129, 0.904);
+    color:white;
+    position: absolute;
+    top:10px;
+    width: 95%;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+}
+#card-9>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:70px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+    cursor: pointer ;
+}
+#outer-div4{
+    width:300px;
+    height:450px;
+    margin-left: 10px;
+    background-color: #4F85DC;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+#outer-div4>img{
+    margin-left:25px;
+    margin-top: 20px;
+}
+#card-10{
+    width:240px;
+    height:130px;
+    margin-left: 25px;
+    background-color:grey;
+    color:white;
+    position: relative;
+    margin-top: -10px;
+}
+#card-10>h4{
+    background-color: rgba(115, 122, 129, 0.904);
+    color:white;
+    position: absolute;
+    top:10px;
+    width: 95%;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+}
+#card-10>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:70px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+    cursor: pointer ;
+}
+#outer-div5{
+    width:300px;
+    height:450px;
+    margin-left: 10px;
+    background-color: #4F85DC;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+
+}
+#outer-div5>img{
+    margin-left:25px;
+    margin-top: 20px;
+}
+#card-11{
+    width:240px;
+    height:130px;
+    margin-left: 25px;
+    background-color:grey;
+    color:white;
+    position: relative;
+    margin-top: -10px;
+}
+#card-11>h4{
+    background-color: rgba(115, 122, 129, 0.904);
+    color:white;
+    position: absolute;
+    top:10px;
+    width: 95%;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+}
+#card-11>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:70px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+    cursor: pointer ;
+}
+#outer-div6{
+    width:300px;
+    height:450px;
+    margin-left: 10px;
+    background-color: #4F85DC;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+
+}
+#outer-div6>img{
+    margin-left:25px;
+    margin-top: 20px;
+}
+#card-12{
+    width:240px;
+    height:130px;
+    margin-left: 25px;
+    background-color:grey;
+    color:white;
+    position: relative;
+    margin-top: -10px;
+}
+#card-12>h4{
+    background-color: rgba(115, 122, 129, 0.904);
+    color:white;
+    position: absolute;
+    top:10px;
+    width: 95%;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+}
+#card-12>button{
+    background-color: rgb(115, 122, 129,.5);
+    color: white;
+    position: absolute;
+    top:70px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+    cursor: pointer ;
+}
+#contact-div{
+    width:80%;
+    height: 10%;
+    background-color: rgb(227, 234, 242);
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 130px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#contact-div>ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+footer{
+   
+    display: flex;
+    margin-top: 10px;
+}
+#menu-div
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#about-div{
+    margin-top: 20px;
+
+}
+#menu-div>a{
+    text-decoration: underline;
+    color: black;
+    margin-left: 10PX;
+    padding-bottom: 5PX;
+}
+address{
+    margin-left: 130px;
+}
+#footer-img{
+    margin-left: 300px;
+    margin-top: -20px;
+}
+#copyrightsec{
+    background-color: rgb(115, 122, 129,.5);
+    width: 64rem;
+}   
+}
+
